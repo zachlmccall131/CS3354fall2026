@@ -6,8 +6,8 @@ public class ticketCounter {
   
     public static void main(String[] args) {
         int ticketsSold = 0;
-        double ticketPrice = 15.0;
-        double totalRevenue = 0.0;
+        double ticketPrice = 15.00;
+        double totalRevenue = 0.00;
 
         // Simulate selling tickets
         Scanner keyboard = new Scanner(System.in);

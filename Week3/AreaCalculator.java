@@ -45,7 +45,7 @@ public class AreaCalculator {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    while (true) {
+    do {
       System.out.println("Choose a shape to calculate area:");
       System.out.println("1. Circle");
       System.out.println("2. Triangle");
@@ -73,6 +73,6 @@ public class AreaCalculator {
         default:
           System.out.println("Invalid choice. Please try again.");
       }
-    }
+    } while (true);
   }
 }
